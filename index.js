@@ -1,1 +1,1 @@
-console.log('%c👨🏻‍💻',null,'Ponomarev Studio');
+console.log('%c❤️',null,'Ponomarev Studio');
