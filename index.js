@@ -1,1 +1,1 @@
-console.log('With ❤️ from https://Ponomarev.Studio');
+console.info('with ❤️ from https://Ponomarev.Studio');
