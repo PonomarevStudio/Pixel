@@ -14,13 +14,13 @@ class PS {
 
     static async renderFloatBanner() {
         const bannerNode = document.createElement('a');
-        bannerNode.title = 'Разработано Ponomarev Studio 🚀';
+        bannerNode.title = 'Ponomarev Studio 🚀';
         bannerNode.href = 'https://Ponomarev.Studio';
         bannerNode.target = '_blank';
         bannerNode.id = 'psBanner';
         bannerNode.innerHTML = `<style>
         #psBanner {
-            --size: 60px;
+            --size: 80px;
             --margin: 20px;
             --filter: blur(35px);
             -webkit-backdrop-filter: var(--filter);
@@ -30,7 +30,6 @@ class PS {
             position: fixed;
             left: var(--margin);
             bottom: var(--margin);
-            transition: all .3s;
         }
 
         #psBanner:after {
@@ -59,7 +58,7 @@ class PS {
         }
         @media (max-width: 1024px) {
             #psBanner{
-                --size: 40px;
+                --size: 60px;
             }
         }
     </style>`;
