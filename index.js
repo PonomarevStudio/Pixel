@@ -56,6 +56,11 @@ class PS {
         #psBanner:hover:after {
             opacity: 1;
         }
+        @media (max-width: 1024px) {
+            #psBanner{
+                --size: 40px;
+            }
+        }
     </style>`;
         document.body.appendChild(bannerNode);
     };
