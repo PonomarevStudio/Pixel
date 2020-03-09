@@ -1,6 +1,7 @@
 class PS {
     constructor() {
-        return PS.preRenderAssets().then(PS.renderFloatBanner);
+        return new URLSearchParams(location.search).has('PS') ?
+            PS.preRenderAssets().then(PS.renderFloatBanner) : null;
     }
 
     static async preRenderAssets() {
