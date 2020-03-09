@@ -21,7 +21,9 @@ class PS {
         #psBanner {
             --size: 60px;
             --margin: 20px;
-            -webkit-backdrop-filter: blur(35px);
+            --filter: blur(35px);
+            -webkit-backdrop-filter: var(--filter);
+            backdrop-filter: var(--filter);
             background-color: rgba(255, 255, 255, .05);
             z-index: 2019;
             position: fixed;
