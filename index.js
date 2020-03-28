@@ -25,7 +25,7 @@ class PS {
             --filter: blur(35px);
             -webkit-backdrop-filter: var(--filter);
             backdrop-filter: var(--filter);
-            background-color: rgba(255, 255, 255, .05);
+            background-color: rgba(0,0,0,0.05);
             z-index: 2019;
             position: fixed;
             left: var(--margin);
