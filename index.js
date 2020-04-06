@@ -53,9 +53,15 @@ class PS {
             height: calc(var(--size) / 2);
         }
 
-        #psBanner:hover:after {
+        #psBanner:hover:after,
+        #psBanner:focus:after {
             opacity: 1;
         }
+        
+        #psBanner:active {
+            transform: scale(.9);
+        }
+        
         @media (max-width: 1024px) {
             #psBanner{
                 --size: 60px;
