@@ -72,4 +72,4 @@ class PS {
     };
 }
 
-new PS();
+window.addEventListener('load', () => new PS());
